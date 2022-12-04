@@ -1,0 +1,2554 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    background-color: #777;
+}
+
+body {
+    width: 1920px;
+    position: relative;
+    height: max-content;
+}
+
+#root {
+    position: relative;
+    /*width: 1300px;*/
+    height: 100%;
+    display: grid;
+    grid-template-rows: 92px 3981px 430px 316px;
+    background: #FFFFFF;
+}
+
+.root__header {
+    background: #FFFFFF;
+}
+
+
+
+.root__sadrzaj {
+
+
+    width: 1300px;
+    margin-left: 310px;
+    margin-top: 80px;
+
+
+
+}
+
+.root__footer {
+}
+
+.root__header__navi {
+    position: relative;
+    width: 1300px;
+    height: 52px;
+    top: 40px;
+    left: 310px;
+}
+
+.root__header__navi__lijevo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 217px;
+}
+
+.root__header__navi__lijevo__naslov {
+
+    left: 63px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+
+    color: #525151;
+}
+
+.root__header__navi__lijevo__ispod {
+    margin-top: 2px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+
+    color: #5BBA3C;
+}
+
+.root__header__navi__centar {
+    position: absolute;
+    left: 42.08%;
+    right: 19.08%;
+    top: 15.38%;
+    bottom: 17.31%;
+    display: flex;
+    justify-content: space-between;
+    width: 505px;
+}
+
+.root__header__navi__centar a {
+
+    text-decoration: none;
+
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #525151;
+}
+
+.root__header__navi__desno {
+    position: absolute;
+    left: 86.08%;
+    right: 0%;
+    top: 3.85%;
+    bottom: 3.85%;
+    width: 181px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.root__header__navi__desno__radnoVrijeme {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    color: #525151;
+    width: 181px;
+}
+
+.root__header__navi__desno__kontakt {
+    width: 155px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+
+.root__header__navi__desno__kontakt__slusalica {}
+
+.root__header__navi__desno__kontakt span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #525151;
+    position: absolute;
+    bottom: 1px;
+    right: 23px;
+    width: 115px;
+    margin-right: -1px;
+}
+
+
+.root__sadrzaj__prvi {
+    display: flex;
+    width: 1300px;
+    height: 582px;
+
+    justify-content: space-between;
+
+
+
+    background-color: #fff;
+
+}
+
+.root__sadrzaj__prvi__lijevi {
+
+    width: 916px;
+    height: 100%;
+
+    padding: 40px;
+
+
+    width: 916px;
+    height: 582px;
+    left: 310px;
+    top: 172px;
+
+    background: url(../img/First\ scteen\ left\ section.png);
+    border-radius: 5px;
+}
+
+.root__sadrzaj__prvi__lijevi__container {
+    width: 836px;
+    height: 502px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    position: relative;
+}
+
+.root__sadrzaj__prvi__lijevi__container__text {
+    position: relative;
+    width: 280px;
+    height: 152px;
+    left: 40px;
+    top: 122px;
+}
+
+.root__sadrzaj__prvi__lijevi__container__text__naslov {
+    position: relative;
+    width: 245px;
+    height: 39px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    /* or 39px */
+
+    text-transform: uppercase;
+
+    color: #525151;
+}
+
+.root__sadrzaj__prvi__lijevi__container__text__podnaslov {
+    position: relative;
+    width: 280px;
+    height: 50px;
+
+    top: 12px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+
+    color: #525151;
+}
+
+.root__sadrzaj__prvi__lijevi__container__text__cijena {
+    position: relative;
+    width: 220px;
+    height: 31px;
+
+    margin-top: 32px;
+    background-color: rgb(255, 255, 255);
+}
+
+.root__sadrzaj__prvi__lijevi__container__text__cijena__prva {
+    width: 107px;
+    height: 31px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 140%;
+    /* identical to box height, or 31px */
+
+
+    color: #525151;
+
+}
+
+.root__sadrzaj__prvi__lijevi__container__text__cijena__druga {
+    position: relative;
+    width: 99px;
+    height: 25px;
+    left: 121px;
+    display: inline-block;
+    top: -27px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    text-decoration-line: line-through;
+
+    color: #DA8778;
+
+}
+
+.root__content__hero__left__container__text__button {
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 38px 14px 37px;
+    background: #5BBA3C;
+    border-radius: 5px;
+    width: 220px;
+}
+
+.root__sadrzaj__prvi__lijevi__container__text__button {
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 38px 14px 37px;
+    background: #5BBA3C;
+    border-radius: 5px;
+    width: 220px;
+}
+
+.root__sadrzaj__prvi__lijevi__container img {
+    right: 0px;
+    z-index: 2;
+    position: absolute;
+}
+
+#root__sadrzaj__prvi__lijevi__container__nature {
+    position: absolute;
+    width: 380px;
+    height: 339px;
+    left: 375px;
+    top: 92px;
+    z-index: 3;
+}
+
+#root__sadrzaj__prvi__lijevi__container__strelice {
+    position: absolute;
+    width: 168px;
+    height: 12px;
+    left: 535px;
+    top: 458px;
+    z-index: 3;
+}
+
+.test {
+    top: -71px;
+}
+
+.root__sadrzaj__prvi__desno {
+    display: flex;
+    flex-direction: column;
+    width: 364px;
+    height: 100%;
+
+}
+
+
+
+.root__sadrzaj__prvi__desnoGore {
+    position: relative;
+    width: 100%;
+    height: 281px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../img/Rectangle\ 27.png");
+    margin-bottom: 20px;
+}
+
+.root__sadrzaj__prvi__desnoDole {
+    position: relative;
+    width: 100%;
+    height: 289px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../img/Rectangle\ 27.png");
+    padding-bottom: 4px;
+
+}
+
+.root__sadrzaj__prvi__desnoGore__elipsa {
+    position: absolute;
+
+    position: absolute;
+    right: 0px;
+    color: #FAF9F7;
+}
+
+.root__sadrzaj__prvi__desnoGore__cvijet {
+    position: absolute;
+    right: 11px;
+    top: 110px;
+}
+
+.root__sadrzaj__prvi__desno__naslov {
+    position: absolute;
+    width: 280px;
+    height: 75px;
+    left: 42px;
+    top: 86px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    text-align: center;
+
+    color: #525151;
+}
+
+.root__sadrzaj__prvi__desnoGore a {
+    position: absolute;
+    width: 94px;
+    height: 21px;
+    left: 135px;
+    top: 174px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+
+    color: #525151;
+}
+
+.root__sadrzaj__prvi__desnoDole__uspravno {
+    position: absolute;
+    width: 80px;
+    height: 282px;
+    left: 0px;
+    top: -1px;
+
+    background: #5BBA3C;
+
+}
+
+.root__sadrzaj__prvi__desnoDole__uspravno p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    /* or 36px */
+    text-align: center;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    width: 234px;
+    height: 36px;
+    position: absolute;
+    left: -77px;
+    top: 125px;
+}
+
+.root__sadrzaj__prvi__desnoDole__text {
+    position: absolute;
+    width: 221px;
+    height: 75px;
+    left: 98px;
+    top: 86px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    text-align: center;
+
+    color: #525151;
+}
+
+.root__sadrzaj__prvi__desnoDole__slika {
+    position: absolute;
+    width: 138px;
+    height: 63px;
+    left: 215px;
+    top: 212px;
+
+}
+
+.root__sadrzaj__prvi__desnoDole a {
+    position: absolute;
+    width: 110px;
+    height: 21px;
+    left: 154px;
+    top: 174px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #A9A9A9;
+}
+
+
+
+.root__proizvodi {
+    position: absolute;
+    width: 1300px;
+    height: 1175px;
+    left: 310px;
+    top: 834px;
+    background-color: #ffffff;
+}
+
+.root__proizvodi__naslov {
+    position: relative;
+    width: 400px;
+    height: 45px;
+    left: 450px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    /* identical to box height, or 45px */
+
+    text-align: center;
+
+    color: #525151;
+}
+
+.root__proizvodi__podnaslov {
+    position: relative;
+    width: 486px;
+    height: 34px;
+    left: 407px;
+    margin-top: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+    text-align: center;
+
+    color: #5BBA3C;
+}
+
+.root__proizvodi__grid {
+
+    display: grid;
+    width: 1300px;
+    height: max-content;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+    margin-top: 40px;
+
+}
+
+.root__proizvodi__grid__prvi {
+    width: 405px;
+    height: 503px;
+    position: relative;
+
+
+    margin-right: 42px;
+}
+
+.root__proizvodi__grid__drugi {
+    width: 405px;
+    height: 503px;
+    position: relative;
+
+
+    margin-right: 42px;
+}
+
+.root__proizvodi__grid__treci {
+    width: 405px;
+    height: 503px;
+    position: relative;
+
+
+    margin-left: 1px;
+}
+
+.root__proizvodi__grid__cetvrti {
+    width: 405px;
+    height: 503px;
+    position: relative;
+
+
+    margin-right: 42px;
+}
+
+.root__proizvodi__grid__peti {
+    width: 405px;
+    height: 503px;
+    position: relative;
+
+
+    margin-right: 42px;
+}
+
+.root__proizvodi__grid__sesti {
+    width: 405px;
+    height: 503px;
+    position: relative;
+
+
+    margin-left: 1px;
+}
+
+.root__proizvodi__grid__prvi__slika {
+    position: relative;
+    width: 234px;
+    height: 208px;
+    left: 64px;
+    top: 20px;
+
+}
+
+.root__proizvodi__grid__prvi__naslov {
+    position: absolute;
+    left: 4.94%;
+    right: 52.84%;
+    top: 49.3%;
+    bottom: 45.13%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+    text-transform: uppercase;
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__prvi__zvijezde {
+
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 20px;
+    top: 296px;
+
+}
+
+.root__proizvodi__grid__prvi__text {
+    position: absolute;
+    left: 4.94%;
+    right: 4.94%;
+    top: 65.81%;
+    bottom: 19.88%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__prvi__cijena {
+    position: absolute;
+    width: 365px;
+    height: 50px;
+    left: 20px;
+    top: 423px;
+    background-color: #DA8778;
+}
+
+.root__proizvodi__grid__prvi__cijena__prva {
+    position: absolute;
+    left: 4.94%;
+    right: 74.81%;
+    top: 86.68%;
+    bottom: 8.55%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 140%;
+    /* identical to box height, or 24px */
+
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__prvi__cijena__slika {
+    position: absolute;
+    left: 82.72%;
+    right: 4.94%;
+    top: 84.1%;
+    bottom: 5.96%;
+}
+
+.root__proizvodi__grid__prvi__cijena__druga {
+    position: absolute;
+    left: 28.64%;
+    right: 54.57%;
+    top: 87.08%;
+    bottom: 8.95%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-decoration-line: line-through;
+
+    color: #DA8778;
+}
+
+
+
+
+
+.root__proizvodi__grid__drugi__slika {
+    position: relative;
+    width: 234px;
+    height: 208px;
+    left: 64px;
+    top: 20px;
+
+}
+
+.root__proizvodi__grid__drugi__naslov {
+    position: absolute;
+    left: 4.94%;
+    right: 52.84%;
+    top: 49.3%;
+    bottom: 45.13%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+    text-transform: uppercase;
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__drugi__zvijezde {
+
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 20px;
+    top: 296px;
+
+}
+
+.root__proizvodi__grid__drugi__text {
+    position: absolute;
+    left: 4.94%;
+    right: 4.94%;
+    top: 65.81%;
+    bottom: 19.88%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__drugi__cijena {
+    position: absolute;
+    width: 365px;
+    height: 50px;
+    left: 20px;
+    top: 423px;
+    background-color: #DA8778;
+}
+
+.root__proizvodi__grid__drugi__cijena__prva {
+    position: absolute;
+    left: 4.94%;
+    right: 74.81%;
+    top: 86.68%;
+    bottom: 8.55%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 140%;
+    /* identical to box height, or 24px */
+
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__drugi__cijena__slika {
+    position: absolute;
+    left: 82.72%;
+    right: 4.94%;
+    top: 84.1%;
+    bottom: 5.96%;
+}
+
+.root__proizvodi__grid__drugi__cijena__druga {
+    position: absolute;
+    left: 28.64%;
+    right: 54.57%;
+    top: 87.08%;
+    bottom: 8.95%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-decoration-line: line-through;
+
+    color: #DA8778;
+}
+
+
+
+
+
+
+
+.root__proizvodi__grid__treci__slika {
+    position: relative;
+    width: 234px;
+    height: 208px;
+    left: 64px;
+    top: 20px;
+
+}
+
+.root__proizvodi__grid__treci__naslov {
+    position: absolute;
+    left: 4.94%;
+    right: 52.84%;
+    top: 49.3%;
+    bottom: 45.13%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+    text-transform: uppercase;
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__treci__zvijezde {
+
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 20px;
+    top: 296px;
+
+}
+
+.root__proizvodi__grid__treci__text {
+    position: absolute;
+    left: 4.94%;
+    right: 4.94%;
+    top: 65.81%;
+    bottom: 19.88%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__treci__cijena {
+    position: absolute;
+    width: 365px;
+    height: 50px;
+    left: 20px;
+    top: 423px;
+    background-color: #DA8778;
+}
+
+.root__proizvodi__grid__treci__cijena__prva {
+    position: absolute;
+    left: 4.94%;
+    right: 74.81%;
+    top: 86.68%;
+    bottom: 8.55%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 140%;
+    /* identical to box height, or 24px */
+
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__treci__cijena__slika {
+    position: absolute;
+    left: 82.72%;
+    right: 4.94%;
+    top: 84.1%;
+    bottom: 5.96%;
+}
+
+.root__proizvodi__grid__treci__cijena__druga {
+    position: absolute;
+    left: 28.64%;
+    right: 54.57%;
+    top: 87.08%;
+    bottom: 8.95%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-decoration-line: line-through;
+
+    color: #DA8778;
+}
+
+
+
+
+
+
+
+.root__proizvodi__grid__cetvrti__slika {
+    position: relative;
+    width: 234px;
+    height: 208px;
+    left: 64px;
+    top: 20px;
+
+}
+
+.root__proizvodi__grid__cetvrti__naslov {
+    position: absolute;
+    left: 4.94%;
+    right: 52.84%;
+    top: 49.3%;
+    bottom: 45.13%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+    text-transform: uppercase;
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__cetvrti__zvijezde {
+
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 20px;
+    top: 296px;
+
+}
+
+.root__proizvodi__grid__cetvrti__text {
+    position: absolute;
+    left: 4.94%;
+    right: 4.94%;
+    top: 65.81%;
+    bottom: 19.88%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__cetvrti__cijena {
+    position: absolute;
+    width: 365px;
+    height: 50px;
+    left: 20px;
+    top: 423px;
+    background-color: #DA8778;
+}
+
+.root__proizvodi__grid__cetvrti__cijena__prva {
+    position: absolute;
+    left: 4.94%;
+    right: 74.81%;
+    top: 86.68%;
+    bottom: 8.55%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 140%;
+    /* identical to box height, or 24px */
+
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__cetvrti__cijena__slika {
+    position: absolute;
+    left: 82.72%;
+    right: 4.94%;
+    top: 84.1%;
+    bottom: 5.96%;
+}
+
+.root__proizvodi__grid__cetvrti__cijena__druga {
+    position: absolute;
+    left: 28.64%;
+    right: 54.57%;
+    top: 87.08%;
+    bottom: 8.95%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-decoration-line: line-through;
+
+    color: #DA8778;
+}
+
+
+
+
+
+
+.root__proizvodi__grid__peti__slika {
+    position: relative;
+    width: 234px;
+    height: 208px;
+    left: 64px;
+    top: 20px;
+
+}
+
+.root__proizvodi__grid__peti__naslov {
+    position: absolute;
+    left: 4.94%;
+    right: 52.84%;
+    top: 49.3%;
+    bottom: 45.13%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+    text-transform: uppercase;
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__peti__zvijezde {
+
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 20px;
+    top: 296px;
+
+}
+
+.root__proizvodi__grid__peti__text {
+    position: absolute;
+    left: 4.94%;
+    right: 4.94%;
+    top: 65.81%;
+    bottom: 19.88%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__peti__cijena {
+    position: absolute;
+    width: 365px;
+    height: 50px;
+    left: 20px;
+    top: 423px;
+    background-color: #DA8778;
+}
+
+.root__proizvodi__grid__peti__cijena__prva {
+    position: absolute;
+    left: 4.94%;
+    right: 74.81%;
+    top: 86.68%;
+    bottom: 8.55%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 140%;
+    /* identical to box height, or 24px */
+
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__peti__cijena__slika {
+    position: absolute;
+    left: 82.72%;
+    right: 4.94%;
+    top: 84.1%;
+    bottom: 5.96%;
+}
+
+.root__proizvodi__grid__peti__cijena__druga {
+    position: absolute;
+    left: 28.64%;
+    right: 54.57%;
+    top: 87.08%;
+    bottom: 8.95%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-decoration-line: line-through;
+
+    color: #DA8778;
+}
+
+
+
+
+
+
+.root__proizvodi__grid__sesti__slika {
+    position: relative;
+    width: 234px;
+    height: 208px;
+    left: 64px;
+    top: 20px;
+
+}
+
+.root__proizvodi__grid__sesti__naslov {
+    position: absolute;
+    left: 4.94%;
+    right: 52.84%;
+    top: 49.3%;
+    bottom: 45.13%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+    text-transform: uppercase;
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__sesti__zvijezde {
+
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 20px;
+    top: 296px;
+
+}
+
+.root__proizvodi__grid__sesti__text {
+    position: absolute;
+    left: 4.94%;
+    right: 4.94%;
+    top: 65.81%;
+    bottom: 19.88%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__sesti__cijena {
+    position: absolute;
+    width: 365px;
+    height: 50px;
+    left: 20px;
+    top: 423px;
+    background-color: #DA8778;
+}
+
+.root__proizvodi__grid__sesti__cijena__prva {
+    position: absolute;
+    left: 4.94%;
+    right: 74.81%;
+    top: 86.68%;
+    bottom: 8.55%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 140%;
+    /* identical to box height, or 24px */
+
+
+    color: #525151;
+}
+
+.root__proizvodi__grid__sesti__cijena__slika {
+    position: absolute;
+    left: 82.72%;
+    right: 4.94%;
+    top: 84.1%;
+    bottom: 5.96%;
+}
+
+.root__proizvodi__grid__sesti__cijena__druga {
+    position: absolute;
+    left: 28.64%;
+    right: 54.57%;
+    top: 87.08%;
+    bottom: 8.95%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-decoration-line: line-through;
+
+    color: #DA8778;
+}
+
+.root__sadrzaj__magazin {
+    position: absolute;
+    width: 1298px;
+    height: 677px;
+    left: 312px;
+    top: 2089px;
+
+}
+
+
+.root__sadrzaj__magazin__naslov {
+    position: relative;
+    width: 140px;
+    height: 45px;
+    left: 573px;
+    top: 0px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    /* identical to box height, or 45px */
+
+
+    color: #525151;
+}
+
+.root__sadrzaj__magazin__podnaslov {
+    position: relative;
+    width: 658px;
+    height: 34px;
+    left: 314px;
+    top: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+    text-align: center;
+
+    color: #5BBA3C;
+}
+
+.root__sadrzaj__magazin__karte {
+
+    width: 1298px;
+    height: 548px;
+    left: 312px;
+    top: 2218px;
+
+
+    display: flex;
+    justify-content: space-between;
+    row-gap: 40px;
+    margin-top: 50px;
+}
+
+.root__sadrzaj__magazin__karte__prva {
+
+
+    width: 405px;
+    height: 548px;
+
+
+
+    border-radius: 5px;
+}
+
+.root__sadrzaj__magazin__karte__druga {
+
+
+    width: 405px;
+    height: 548px;
+
+
+
+    border-radius: 5px;
+}
+
+.root__sadrzaj__magazin__karte__treca {
+
+
+    width: 405px;
+    height: 548px;
+    margin-left: -1px;
+
+
+
+    border-radius: 5px;
+}
+
+.root__sadrzaj__magazin__karte__prva__naslov {
+    position: relative;
+    margin-top: 16px;
+    margin-left: 21px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+    text-transform: uppercase;
+
+    color: #5BBA3C;
+
+}
+
+.root__sadrzaj__magazin__karte__druga__naslov {
+    position: relative;
+    margin-top: 16px;
+    margin-left: 21px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+    text-transform: uppercase;
+
+    color: #5BBA3C;
+
+}
+
+.root__sadrzaj__magazin__karte__treca__naslov {
+    position: relative;
+    margin-top: 16px;
+    margin-left: 21px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+    text-transform: uppercase;
+
+    color: #5BBA3C;
+
+}
+
+.root__sadrzaj__magazin__karte__prva__text {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 21px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #525151;
+
+}
+
+.root__sadrzaj__magazin__karte__druga__text {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 21px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #525151;
+
+}
+
+.root__sadrzaj__magazin__karte__treca__text {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 21px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #525151;
+
+}
+
+.root__sadrzaj__magazin__karte__prva__saznaj {
+    position: relative;
+    width: 94px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+
+    color: #A9A9A9;
+}
+
+.root__sadrzaj__buy {
+    position: absolute;
+    width: 1300px;
+    height: 681px;
+    left: 310px;
+    top: 2846px;
+}
+
+.root__sadrzaj__buy__naslov {
+    position: relative;
+    width: 404px;
+    height: 45px;
+    left: 448px;
+    top: 0px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    /* identical to box height, or 45px */
+
+
+    color: #525151;
+
+}
+
+.root__sadrzaj__buy__text {
+    position: relative;
+    width: 658px;
+    height: 34px;
+    left: 321px;
+    top: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+    text-align: center;
+
+    color: #5BBA3C;
+
+}
+
+.root__sadrzaj__buy__container {
+    width: 1300px;
+    height: 500px;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.root__sadrzaj__buy__container__prvi {
+    width: 405px;
+    height: 500px;
+
+}
+
+.root__sadrzaj__buy__container__drugi {
+    width: 405px;
+    height: 500px;
+    margin-left: -1px;
+
+
+}
+
+.root__sadrzaj__buy__container__treci {
+    width: 405px;
+    height: 500px;
+
+
+}
+
+.root__sadrzaj__buy__container__prvi__slika {
+    position: relative;
+    left: 17px;
+    top: 20px;
+
+
+
+
+}
+
+.root__sadrzaj__buy__container__drugi__slika {
+    position: relative;
+    left: 17px;
+    top: 20px;
+
+
+
+
+}
+
+.root__sadrzaj__buy__container__treci__slika {
+    position: relative;
+    left: 17px;
+    top: 20px;
+
+
+
+}
+
+.root__sadrzaj__buy__container__prvi__naslov {
+    position: relative;
+    width: 332px;
+    height: 25px;
+    top: 36px;
+    margin-left: 20px;
+
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    text-transform: uppercase;
+
+    color: #525151;
+
+}
+
+.root__sadrzaj__buy__container__drugi__naslov {
+    position: relative;
+
+    top: 36px;
+    width: 332px;
+    height: 25px;
+    margin-left: 20px;
+
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    text-transform: uppercase;
+
+    color: #525151;
+
+}
+
+.root__sadrzaj__buy__container__treci__naslov {
+    position: relative;
+    width: 332px;
+    height: 25px;
+    top: 36px;
+    margin-left: 20px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    text-transform: uppercase;
+
+    color: #525151;
+
+}
+
+.root__sadrzaj__buy__container__prvi__strelice {
+    position: relative;
+    width: 92px;
+    height: 15px;
+    left: 20px;
+    top: 56px;
+
+}
+
+.root__sadrzaj__buy__container__drugi__strelice {
+    position: relative;
+    width: 92px;
+    height: 15px;
+    left: 20px;
+    top: 56px;
+
+}
+
+.root__sadrzaj__buy__container__treci__strelice {
+    position: relative;
+    width: 92px;
+    height: 15px;
+    left: 20px;
+    top: 56px;
+
+}
+
+.root__sadrzaj__buy__container__prvi__text {
+    position: relative;
+    top: 72px;
+    left: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    width: 365px;
+    height: 72px;
+
+
+
+    color: #525151;
+
+}
+
+.root__sadrzaj__buy__container__drugi__text {
+    position: relative;
+    top: 72px;
+    left: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    width: 365px;
+    height: 72px;
+
+
+    color: #525151;
+
+}
+
+.root__sadrzaj__buy__container__treci__text {
+    position: relative;
+    top: 72px;
+    left: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    width: 365px;
+    height: 72px;
+
+
+    color: #525151;
+
+}
+
+.root__sadrzaj__buy__container__prvi__cijena {
+    position: relative;
+    width: 365px;
+    height: 50px;
+    left: 20px;
+    top: 92px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.root__sadrzaj__buy__container__drugi__cijena {
+    position: relative;
+    width: 365px;
+    height: 50px;
+    left: 20px;
+    top: 92px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.root__sadrzaj__buy__container__treci__cijena {
+    position: relative;
+    width: 365px;
+    height: 50px;
+    left: 20px;
+    top: 92px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.root__sadrzaj__buy__container__prvi__cijena__first {
+    position: relative;
+    left: 0px;
+
+
+    display: inline-block;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    /* identical to box height, or 31px */
+    color: #525151;
+    width: 82px;
+
+}
+
+.root__sadrzaj__buy__container__drugi__cijena__first {
+    position: relative;
+
+    left: 0px;
+
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 140%;
+    /* identical to box height, or 24px */
+
+
+    color: #525151;
+
+}
+
+.root__sadrzaj__buy__container__treci__cijena__first {
+    position: relative;
+
+    left: 0px;
+
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 140%;
+    /* identical to box height, or 24px */
+
+
+    color: #525151;
+
+}
+
+.root__sadrzaj__buy__container__prvi__cijena__stara {
+    position: absolute;
+    left: 26.24%;
+    right: 53.09%;
+    width: 74px;
+    height: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-decoration-line: line-through;
+
+    color: #DA8778;
+
+}
+
+.root__sadrzaj__buy__container__drugi__cijena__stara {
+    position: absolute;
+    left: 26.24%;
+    right: 53.09%;
+    width: 74px;
+    height: 20px;
+
+
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-decoration-line: line-through;
+
+    color: #DA8778;
+
+}
+
+.root__sadrzaj__buy__container__treci__cijena__stara {
+    position: absolute;
+    left: 26.24%;
+    right: 53.09%;
+    width: 74px;
+    height: 20px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-decoration-line: line-through;
+
+    color: #DA8778;
+
+}
+
+.root__sadrzaj__buy__container__prvi__cijena__slika {
+
+    width: 50px;
+    height: 50px;
+
+}
+
+.root__sadrzaj__buy__container__drugi__cijena__slika {
+    width: 50px;
+    height: 50px;
+
+}
+
+.root__sadrzaj__buy__container__treci__cijena__slika {
+    width: 50px;
+    height: 50px;
+
+}
+
+.root__sadrzaj__buy__strelice {
+    position: relative;
+    width: 168px;
+    height: 12px;
+    left: 566px;
+    top: 38px;
+}
+
+.root__sadrzaj__dostava {
+    position: absolute;
+    width: 1166px;
+    height: 383px;
+    left: 377px;
+    top: 3607px;
+}
+
+.root__sadrzaj__dostava__naslov {
+    position: relative;
+    width: 323px;
+    height: 45px;
+    left: 431px;
+    top: 0px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    /* identical to box height, or 45px */
+
+
+    color: #000000;
+
+}
+
+.root__sadrzaj__dostava__text {
+    position: relative;
+    width: 277px;
+    height: 34px;
+    left: 454px;
+    top: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+    text-align: center;
+
+    color: #5BBA3C;
+
+}
+
+.root__sadrzaj__dostava__container {
+    width: 100%;
+    height: 254px;
+    background-color: #fff;
+    top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.root__sadrzaj__dostava__container__prvi {
+    width: 260px;
+    height: 254px;
+
+
+}
+
+.root__sadrzaj__dostava__container__drugi {
+    width: 260px;
+    height: 254px;
+
+}
+
+.root__sadrzaj__dostava__container__treci {
+    width: 260px;
+    height: 254px;
+
+}
+
+.root__sadrzaj__dostava__container__cetvrti {
+    width: 260px;
+    height: 254px;
+}
+
+
+.root__sadrzaj__dostava__container__prvi__krug {
+    position: relative;
+    left: 30px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.root__sadrzaj__dostava__container__drugi__krug {
+    position: relative;
+    left: 30px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.root__sadrzaj__dostava__container__treci__krug {
+    position: relative;
+    left: 30px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.root__sadrzaj__dostava__container__cetvrti__krug {
+    position: relative;
+    left: 30px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.root__sadrzaj__dostava__container__prvi__text {
+    position: relative;
+    width: 260px;
+    height: 34px;
+    left: 0px;
+    top: 16px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.root__sadrzaj__dostava__container__drugi__text {
+    position: relative;
+    width: 260px;
+    height: 34px;
+    left: 0px;
+    top: 16px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.root__sadrzaj__dostava__container__treci__text {
+    position: relative;
+    width: 260px;
+    height: 34px;
+    left: 0px;
+    top: 16px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.root__sadrzaj__dostava__container__cetvrti__text {
+    position: relative;
+    width: 260px;
+    height: 34px;
+    left: 0px;
+    top: 16px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.root__sadrzaj__dostava__container__prvi__slika {
+    position: absolute;
+    position: absolute;
+    left: 70px;
+    top: 40px;
+
+
+
+}
+
+.root__sadrzaj__dostava__container__drugi__slika {
+    position: absolute;
+    left: 372px;
+    top: 40px;
+
+
+
+}
+
+.root__sadrzaj__dostava__container__treci__slika {
+    position: absolute;
+    left: 674px;
+    top: 40px;
+
+
+    z-index: 2;
+
+
+}
+
+.root__sadrzaj__dostava__container__cetvrti__slika {
+    position: absolute;
+    left: 976px;
+    top: 40px;
+
+}
+
+.root__kontakt {
+    width: 100%;
+    height: 430px;
+    background: url('../img/Group\ 126.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.root__kontakt__container {
+    width: 700px;
+    height: 330px;
+    background: #FAF9F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.root__kontakt__container__naslov {
+    position: absolute;
+    width: 314px;
+    height: 44px;
+    left: 803px;
+    top: 4153px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    /* or 45px */
+
+    text-align: center;
+
+    color: #525151;
+}
+
+.root__kontakt__container__text {
+    position: absolute;
+    width: 434px;
+    height: 34px;
+    left: 743px;
+    top: 4207px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+    text-align: center;
+
+    color: #525151;
+}
+
+.root__kontakt__container__form {
+    margin-top: 188px;
+    width: 580px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.root__kontakt__container__form input {
+    width: 275px;
+    height: 32px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    outline: none;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: none;
+    color: #A9A9A9;
+    border-bottom: 1px solid #5BBA3C;
+    background: #FAF9F7;
+
+}
+
+.root__kontakt__container__submit {
+    width: 220px;
+    height: 50px;
+    background: #5BBA3C;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.root__footer__gore {
+    position: absolute;
+    width: 1920px;
+    height: 266px;
+    left: 0px;
+    top: 4503px;
+    background: #182229;
+}
+
+
+
+.root__footer__gore__container {
+    position: relative;
+    width: 1040px;
+    height: 52px;
+    left: 440px;
+    top: 107px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.root__footer__gore__container__prvi {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 217px;
+    height: 52px;
+}
+
+.root__footer__gore__container__drugi {
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    margin-left: 274px;
+    width: 264px;
+    height: 52px;
+}
+
+.root__footer__gore__container__treci {
+    position: relative;
+
+    top: 0px;
+
+    width: 205px;
+    height: 52px;
+
+}
+
+.root__footer__gore__container__prvi__text1 {
+    position: relative;
+    width: 90px;
+    height: 25px;
+    left: 64px;
+    margin-left: -1px;
+   
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    
+    
+    color: #FFFFFF;
+    
+}
+.root__footer__gore__container__prvi__text2 {
+    position: relative;
+width: 217px;
+height: 25px;
+left: 0px;
+margin-top: 2px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+
+color: #5BBA3C;
+}
+
+.root__footer__gore__container__drugi__text {
+    position: relative;
+width: 236px;
+height: 21px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.root__footer__gore__container__drugi__mail {
+    position: relative;
+width: 264px;
+height: 21px;
+left: 0px;
+margin-top: 10px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.root__footer__gore__container__drugi__mail__slika {
+
+width: 20px;
+height: 20px;
+
+margin-top: 1px;
+}
+.root__footer__gore__container__drugi__mail__text {
+
+width: 224px;
+height: 21px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.root__footer__gore__container__treci__text {
+    position: absolute;
+    width: 205px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+
+}
+
+.root__footer__gore__container__treci__telefon {
+width: 170px;
+height: 21px;
+margin-top: 31px;
+
+display: flex;
+justify-content: space-between;
+}
+
+.root__footer__gore__container__treci__telefon__slika {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.root__footer__gore__container__treci__telefon__text {
+width: 130px;
+height: 21px;
+margin-left: 20px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+
+
+.root__footer2 {
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+
+background: #11191E;
+}
+
+.root__footer2__text {
+    position: absolute;
+
+top: 4785px;
+left: 842px;
+right: 818px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
